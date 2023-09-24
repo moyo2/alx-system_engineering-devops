@@ -2,4 +2,26 @@
 # Creates an RSA SSH key pair
 ssh-keygen -f school -b 4096 -N betty
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpjJ2FVBKNKeITmK084zXU26qhDA3I/Z90CuGEyaiyoimOolbCTuwsDugJdJgIdOHoiXWBzBv0al9LHAATK9cbjNUZoBo09IrHI2ca5oa6dZKeJJIlquPrjK+oCQm13BOx4aIPcoUjqUBV9tc6TGP78SJ5GdZrg2ImpfvXWrISeTnGbm7xv/K3wKbqQ1IXgtQWy5JZH7UBkHUtu6+Rqv/vuyW0xts18MgOeVcNd1pBkWZ5tgG5GF4hWund5rMCEJAs3D1mQfStCePzzzT6LFLsvqgZvvi7Gw/wuwP8AWWwvre3jDvoE+6X6tKXmMMzyBQdWDw2heReIpfUZ3NWBMinsXYOyvgzqdD05QKzRqYsL5WIXtU/mxY1jaZXm2XBUqPcIDhII+osQDkHslqda/2pM/+k0XIGGhQvy2dTMnOG9C5aL0vCplYhPGbAMfWH7rS8JtjgcO31p95nsMmL6qzogwNjR5+R442p4M0S4YnNc7Q5CPcL52Tld/+n+hDNAqc= root@fb34d4489830
+sylvain@ubuntu$ ls
+1-create_ssh_key_pair
+sylvain@ubuntu$ ./1-create_ssh_key_pair
+Generating public/private rsa key pair.
+Your identification has been saved in school.
+Your public key has been saved in school.pub.
+The key fingerprint is:
+5d:a8:c1:f5:98:b6:e5:c0:9b:ee:02:c4:d4:01:f3:ba vagrant@ubuntu
+The key's randomart image is:
++--[ RSA 4096]----+
+|      oo...      |
+|      .+.o =     |
+|     o  + B +    |
+|      o. = O     |
+|     .. S = .    |
+|      .. .       |
+|      E.  .      |
+|        ..       |
+|         ..      |
++-----------------+
+sylvain@ubuntu$ ls
+1-create_ssh_key_pair school  school.pub
+sylvain@ubuntu$ 
