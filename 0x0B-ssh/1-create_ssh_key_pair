@@ -1,22 +1,3 @@
 #!/usr/bin/env bash
 # Creates an RSA SSH key pair
-ssh-keygen -f school -b 4096 -N betty
-
-Generating public/private rsa key pair.
-Your identification has been saved in school
-Your public key has been saved in school.pub
-The key fingerprint is:
-SHA256:YiRXWyKCv+dwW4Rz3CiTh8pJmWSAHr7D3p9MOMlgLT8 root@8effa4448591
-The key's randomart image is:
-+---[RSA 4096]----+
-| ..o. . o .      |
-|... o. o +       |
-|o .+.oo=.o       |
-| o. =+B * .      |
-|.+.+ +oBS        |
-|.+= O.o..        |
-|. oE * o         |
-| . .= +          |
-|    .+           |
-+----[SHA256]-----+
-root@8effa4448591:/alx-system_engineering-devops# ls
+ssh-keygen -t rsa -b 4096 -p betty -f school
